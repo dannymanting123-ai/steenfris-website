@@ -179,3 +179,9 @@ body {
   font-size: 18px;
   cursor: pointer;
 }
+
+.logo {
+  width: 420px;
+  max-width: 90%;
+  margin-bottom: 40px;
+}

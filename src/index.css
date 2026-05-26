@@ -133,17 +133,22 @@ body {
 }
 
 .minimum {
-  margin-top: 40px;
+  margin: 50px auto 0;
   background: #22c55e;
   color: white;
-  padding: 24px;
-  border-radius: 16px;
+  padding: 24px 40px;
+  border-radius: 18px;
   font-size: 28px;
+  font-weight: bold;
+
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  font-weight: bold;
+
+  width: fit-content;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
 .service-area {

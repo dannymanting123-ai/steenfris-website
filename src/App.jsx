@@ -39,7 +39,7 @@ export default function App() {
       {/* Hero */}
       <section className="max-w-7xl mx-auto px-6 py-16 text-center">
         <img
-          src="/logosteenfris.png"
+          src="/logo.png"
           alt="SteenFris Logo"
           className="mx-auto w-full max-w-3xl mb-10"
         />

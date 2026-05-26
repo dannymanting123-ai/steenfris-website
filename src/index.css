@@ -134,7 +134,16 @@ body {
 
 .minimum {
   margin-top: 40px;
-  font-size: 24px;
+  background: #22c55e;
+  color: white;
+  padding: 24px;
+  border-radius: 16px;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-weight: bold;
 }
 
 .service-area {

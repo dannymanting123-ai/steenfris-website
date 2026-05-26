@@ -5,7 +5,7 @@ const packages = [
   {
     title: "Basis",
     subtitle: "Reinigen",
-    price: "€5,50",
+    price: "€4,50",
     features: [
       "Grof vuil verwijderen",
       "Inzepen",

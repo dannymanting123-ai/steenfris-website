@@ -100,8 +100,9 @@ export default function App() {
         </div>
 
         <div className="minimum">
-          Minimum factuurbedrag: <strong>€125,-</strong>
-        </div>
+  <span>Minimum factuurbedrag</span>
+  <strong>€125,-</strong>
+</div>
       </section>
 
       <section className="service-area">

@@ -111,17 +111,60 @@ export default function App() {
         <p>Actief in Noord-Nederland</p>
       </section>
 
-      <section className="contact">
-        <h2>Vrijblijvend contact opnemen?</h2>
+      <section className="contact-section">
+  <h2>Vraag vrijblijvend een offerte aan</h2>
 
-        <form className="contact-form">
-          <input type="text" placeholder="Naam" />
-          <input type="email" placeholder="E-mailadres" />
-          <textarea placeholder="Bericht"></textarea>
+  <form
+    action="https://api.web3forms.com/submit"
+    method="POST"
+    className="contact-form"
+  >
+    <input
+      type="hidden"
+      name="access_key"
+      value="bb91a809-3d4e-4413-a021-296590fea62d"
+    />
 
-          <button type="submit">Versturen</button>
-        </form>
-      </section>
+    <input
+      type="text"
+      name="name"
+      placeholder="Naam"
+      required
+    />
+
+    <input
+      type="email"
+      name="email"
+      placeholder="E-mailadres"
+      required
+    />
+
+    <input
+      type="tel"
+      name="phone"
+      placeholder="Telefoonnummer"
+    />
+
+    <textarea
+      name="message"
+      placeholder="Waarmee kunnen wij helpen?"
+      required
+    ></textarea>
+
+    <button type="submit">
+      Offerte aanvragen
+    </button>
+  </form>
+
+  <a
+    href="https://wa.me/31631926201"
+    target="_blank"
+    rel="noreferrer"
+    className="whatsapp-button"
+  >
+    WhatsApp ons
+  </a>
+</section>
     </div>
   );
 }

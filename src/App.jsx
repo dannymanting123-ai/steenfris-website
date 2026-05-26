@@ -108,7 +108,7 @@ export default function App() {
 
       <section className="service-area">
         <h2>Werkgebied</h2>
-        <p>Actief in Noord-Nederland</p>
+        <p>Actief in Drenthe</p>
       </section>
 
       <section className="contact-section">

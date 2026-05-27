@@ -16,7 +16,7 @@ const packages = [
   {
     title: "Compleet",
     subtitle: "Reinigen + Invegen",
-    price: "€7,50",
+    price: "€7,00",
     features: [
       "Alles van basis",
       "Voegen opnieuw invegen",

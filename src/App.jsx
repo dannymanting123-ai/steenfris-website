@@ -70,7 +70,7 @@ export default function App() {
 
       <section className="benefits">
         <div>✅ Krachtige reiniging</div>
-        <div>🌱 Milieuvriendelijke producten</div>
+        <div>🧴 Professionele reinigingsmiddelen</div>
         <div>✨ Stralend resultaat</div>
         <div>🛡️ Beschermt en verlengt levensduur</div>
       </section>
